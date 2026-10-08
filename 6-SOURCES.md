@@ -1,22 +1,75 @@
-# Source ledger
+# LinuxReady reference sources
 
-Original summaries from linked references, not verbatim copies. Reviewed 8 October 2026. Installed versions can differ.
+Every learning entry carries its own reference link in `data.js`. This is the deduplicated source list (73 URLs), opened and reviewed 8 October 2026. Installed command versions vary by distribution; prefer your local `man` pages for version-specific behavior.
 
+- https://bind9.readthedocs.io/en/stable/manpages.html
+- https://docs.kernel.org/process/license-rules.html
+- https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/configuring_and_managing_logical_volumes/index
+- https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_firewalls_and_packet_filters/using-and-configuring-firewalld_firewall-packet-filters
+- https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/managing_software_with_the_dnf_tool/assembly_yum-commands-list_managing-software-with-the-dnf-tool
 - https://linuxcommand.org/lc3_man_pages/uniq1.html
+- https://man.archlinux.org/man/pacman.8
+- https://man7.org/linux/man-pages/man1/awk.1p.html
 - https://man7.org/linux/man-pages/man1/bash.1.html
+- https://man7.org/linux/man-pages/man1/cat.1.html
 - https://man7.org/linux/man-pages/man1/chmod.1.html
+- https://man7.org/linux/man-pages/man1/chown.1.html
+- https://man7.org/linux/man-pages/man1/cp.1.html
 - https://man7.org/linux/man-pages/man1/crontab.1.html
+- https://man7.org/linux/man-pages/man1/curl.1.html
 - https://man7.org/linux/man-pages/man1/df.1.html
+- https://man7.org/linux/man-pages/man1/diff.1.html
+- https://man7.org/linux/man-pages/man1/du.1.html
 - https://man7.org/linux/man-pages/man1/find.1.html
 - https://man7.org/linux/man-pages/man1/free.1.html
+- https://man7.org/linux/man-pages/man1/getfacl.1.html
 - https://man7.org/linux/man-pages/man1/grep.1.html
+- https://man7.org/linux/man-pages/man1/head.1.html
+- https://man7.org/linux/man-pages/man1/journalctl.1.html
 - https://man7.org/linux/man-pages/man1/kill.1.html
+- https://man7.org/linux/man-pages/man1/ls.1.html
+- https://man7.org/linux/man-pages/man1/mkdir.1.html
+- https://man7.org/linux/man-pages/man1/mv.1.html
+- https://man7.org/linux/man-pages/man1/nice.1.html
+- https://man7.org/linux/man-pages/man1/pgrep.1.html
+- https://man7.org/linux/man-pages/man1/ps.1.html
+- https://man7.org/linux/man-pages/man1/rm.1.html
+- https://man7.org/linux/man-pages/man1/rsync.1.html
+- https://man7.org/linux/man-pages/man1/sed.1.html
+- https://man7.org/linux/man-pages/man1/sort.1.html
+- https://man7.org/linux/man-pages/man1/ssh-copy-id.1.html
+- https://man7.org/linux/man-pages/man1/ssh-keygen.1.html
 - https://man7.org/linux/man-pages/man1/ssh.1.html
 - https://man7.org/linux/man-pages/man1/stat.1.html
 - https://man7.org/linux/man-pages/man1/systemctl.1.html
+- https://man7.org/linux/man-pages/man1/tail.1.html
+- https://man7.org/linux/man-pages/man1/tar.1.html
+- https://man7.org/linux/man-pages/man1/touch.1.html
 - https://man7.org/linux/man-pages/man1/uname.1.html
+- https://man7.org/linux/man-pages/man1/wc.1.html
+- https://man7.org/linux/man-pages/man5/crontab.5.html
+- https://man7.org/linux/man-pages/man5/group.5.html
+- https://man7.org/linux/man-pages/man5/passwd.5.html
+- https://man7.org/linux/man-pages/man5/proc.5.html
+- https://man7.org/linux/man-pages/man7/inode.7.html
+- https://man7.org/linux/man-pages/man7/signal.7.html
 - https://man7.org/linux/man-pages/man7/symlink.7.html
+- https://man7.org/linux/man-pages/man8/ip-address.8.html
+- https://man7.org/linux/man-pages/man8/ip-route.8.html
+- https://man7.org/linux/man-pages/man8/ip.8.html
+- https://man7.org/linux/man-pages/man8/lsblk.8.html
+- https://man7.org/linux/man-pages/man8/mount.8.html
+- https://man7.org/linux/man-pages/man8/ping.8.html
+- https://man7.org/linux/man-pages/man8/rpm.8.html
+- https://man7.org/linux/man-pages/man8/ss.8.html
+- https://man7.org/linux/man-pages/man8/sudo.8.html
+- https://man7.org/linux/man-pages/man8/swapon.8.html
+- https://manpages.debian.org/bookworm/gzip/gzip.1.en.html
+- https://manpages.debian.org/stable/apt/apt.8.en.html
+- https://networkmanager.dev/docs/api/latest/nmcli.html
+- https://refspecs.linuxfoundation.org/FHS%5F3.0/fhs-3.0.html
 - https://www.freedesktop.org/software/systemd/man/latest/systemd.html
+- https://www.gnu.org/gnu/gnu-history.html
 - https://www.man7.org/linux/man-pages/man1/journalctl.1.html
 - https://www.man7.org/linux/man-pages/man1/ps.1.html
 - https://www.man7.org/linux/man-pages/man7/inode.7.html
