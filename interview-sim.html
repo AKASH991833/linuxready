@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Practice Linux and IT interview questions with a timer, typed or spoken answers and keyword scoring. Free, private, runs in your browser."><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'"><meta name="referrer" content="no-referrer"><title>Interview Simulator | LinuxReady</title><link rel="stylesheet" href="2-style.css"><link rel="stylesheet" href="5-sim.css"><script defer src="5-sim-bank.js"></script><script defer src="5-sim.js"></script></head>
+<body class="interview" data-kind="interview"><header><div class="brand"><a href="index.html" class="brandlink">LinuxReady<span>.</span></a></div><div class="headerbuttons"><a class="theme navlink" href="index.html">← Learn</a><button class="theme" id="themeBtn" type="button">Light mode</button></div></header>
+<main>
+<div class="eyebrow">MOCK INTERVIEW</div><h1>Practice out loud.<br><span>Get scored.</span></h1>
+<p class="intro">Pick topics, set a timer, answer in your own words (type or speak). You get a keyword score and the model answer after every question.</p>
+<section id="setup" class="card sim">
+ <div class="grid2"><label>Questions<select id="count"><option>5</option><option selected>10</option><option>15</option><option>20</option></select></label>
+ <label>Time per question<select id="secs"><option value="60">1 minute</option><option value="90" selected>1.5 minutes</option><option value="120">2 minutes</option><option value="180">3 minutes</option><option value="0">No timer</option></select></label>
+ <label>Level<select id="level"><option value="">All</option><option>Beginner</option><option>Scenario</option></select></label>
+ <label>Answer by<select id="mode"><option value="type">Typing</option><option value="speak">Speaking (mic)</option></select></label></div>
+ <p class="lbl">Topics <button class="smallbtn" id="allT" type="button">All</button> <button class="smallbtn" id="noneT" type="button">None</button> <button class="smallbtn" id="coreT" type="button">Core sysadmin</button></p>
+ <div id="topics" class="topicsel"></div>
+ <p class="hint" id="avail"></p>
+ <button class="cta" id="start" type="button">Start interview ↗</button>
+ <p class="hint">Honest note: this is keyword scoring only. It checks if you mention the key terms from the model answer. A correct answer in different words can score low, so always read the model answer.</p>
+</section>
+<section id="run" class="card sim" hidden>
+ <div class="simtop"><span class="pill" id="prog"></span><span class="pill" id="topic"></span><span class="timer" id="timer" aria-live="off"></span></div>
+ <h2 id="question"></h2>
+ <textarea id="ans" rows="7" maxlength="3000" placeholder="Type your answer here, like you would say it in an interview..."></textarea>
+ <div class="toolbar"><button class="smallbtn" id="mic" type="button" hidden>🎤 Speak</button><span class="hint" id="micstat"></span><span class="grow"></span><button class="smallbtn" id="skip" type="button">Skip</button><button class="cta small" id="submit" type="button">Submit answer</button></div>
+ <div id="fb" hidden>
+  <div class="scoreline"><b id="sc"></b><span id="verdict"></span></div>
+  <p class="lbl">You covered</p><div id="hit" class="kw"></div>
+  <p class="lbl">You missed</p><div id="miss" class="kw"></div>
+  <p class="lbl">Model answer</p><p id="model"></p><code class="code" id="ex"></code><p><a id="src" class="source" target="_blank" rel="noopener noreferrer">Read reference ↗</a></p>
+  <button class="cta small" id="next" type="button">Next question →</button>
+ </div>
+</section>
+<section id="done" class="card sim" hidden>
+ <h2>Interview finished</h2><div class="scoreline"><b id="fscore"></b><span id="fverdict"></span></div>
+ <p class="hint" id="fstats"></p><p class="lbl">By topic</p><div id="bytopic"></div>
+ <p class="lbl">Review</p><div id="review"></div>
+ <div class="toolbar"><button class="cta small" id="retryWeak" type="button">Practice weak topics</button><button class="smallbtn" id="again" type="button">New interview</button></div>
+</section>
+<p class="foot">Questions come from the LinuxReady bank (723 entries). Scores are saved only in this browser tab; nothing is sent anywhere. Practice commands in a disposable lab.</p>
+</main><div class="footer"><span>Created by Akash Vishwakarma</span><span>Free learning · Local-first</span></div></body></html>
