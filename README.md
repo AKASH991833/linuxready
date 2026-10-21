@@ -1,5 +1,8 @@
 # LinuxReady
 
+**Live site:** https://akash991833.github.io/linuxready/
+
+
 391 Q&A/coaching/scenarios and 332 explained quiz questions (723 items).
 
 Major-topic map on the site, source links per card, dark/light, search, filters, local bookmarks. English technical answers plus optional Hinglish guidance. No accounts, telemetry, command execution or external runtime scripts.
